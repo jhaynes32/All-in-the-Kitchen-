@@ -1,0 +1,80 @@
+@import url("bootstrap.min.css");
+@import url("bootstrap-theme.css");
+
+
+body {
+    background-image: url(/images/andrew-buchanan-xbdhbn2sB4U-unsplash.jpg);
+    padding: 100px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 60 bold black;
+}
+
+.main-title {
+   font-family: 'Berkshire Swash', cursive;
+   font-size: 200 bold black;
+}
+
+h1 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 100 bold black; 
+}
+
+.jumbotron {
+    background-color: #A1E0DC;
+}
+
+.favorites {
+   font-family: 'Fredoka One', cursive;
+   font-size: 70 bold black;
+}
+
+.user-recipes {
+   font-family: 'Fredoka One', cursive;
+   font-size: 70 bold black;
+}
+
+.my-favorites {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.my-recipes {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.fave-recipes{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+
+.my-posts {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+
+#recipe-title {
+   font-family: 'Marcellus', serif;
+   font-size: 160 bold black;
+}
+
+.steps {
+   font-family: 'Fredoka One', cursive;
+   font-size: 40 bold black;
+}
+
+#video-player {
+    display: inline;
+    padding-left: 50px;
+}
+footer {
+    display: inline-flex;
+    font-family: 'Fredoka One', cursive;
+    font-size: 15px bold black;
+}
+
+.social-icons {
+    float: right;
+}

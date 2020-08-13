@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--JQuery-->
+    <script defer src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+    <!--Main JS-->
+    <script defer src="/scripts/main.js"></script>
+    <!--Main CSS-->
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Aclonica|Berkshire+Swash|Fredoka+One|Marcellus&display=swap" rel="stylesheet">
+    <!-- Bootstrap 4.3.1 CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>All in the Kitchen</title>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron bg-info text-black">
+            <header>
+                <div class="page-header">
+                    <h1 class="main-title">It's All in the Kitchen</h1>
+                        <nav>
+                            <div class="container">
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu
+                                        <span class="caret"></span>
+                                    </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" href="/">Home</a>
+                                            <a class="dropdown-item" href="/login">Login</a>
+                                            <a class="dropdown-item" href="/signup">Signup</a>
+                                            <a class="dropdown-item" href="/profile">Profile</a>
+                                            <a class="dropdown-item" href="/recipe">Recipes</a>
+                                            <a class="dropdown-item" href="post">Create Post</a>
+                                            <a class="dropdown-item" href="/">Logout</a>
+                                        </div>
+                                </div>
+                            </div>
+                        </nav>
+                </div>
+            </header>
+        </div>
+    </div>
+            
+        <main>
+            <div class="jumbotron bg-dark text-white">
+                <h2 id="recipe-title">Hungarian Goulash Soup</h2>
+                    <div class="steps">
+                        Goulash is the ultimate Hungarian comfort food. This hearty beef stew is so flavorful thanks to sweet Hungarian paprika, peppers, onions, garlic, tomato paste, and caraway seeds. It’s a dish that can be enjoyed year round.
+                    
+                            <ul id="ingredients">
+                                <h1>Ingredients</h1>
+                                    <li>3 Tablespoons butter or bacon drippings</li>
+                                    <li>2 large yellow onions, chopped</li>
+                                    <li>1 ½ pounds stew meat, cut into ½ inch pieces</li>
+                                    <li>¼ cup sweet Hungarian paprika</li>
+                                    <li>1 teaspoon salt</li>
+                                    <li>1 large green bell pepper, seeded and diced into ½-inch pieces</li>
+                                    <li>1 large red bell pepper, seeded and diced into ½-inch pieces</li>
+                                    <li>4 ounces tomato paste</li>
+                                    <li>4 large garlic cloves, minced</li>
+                                    <li>5 cups beef broth</li>
+                                    <li>1 bay leaf</li>
+                                    <li>¼ teaspoon caraway seeds, crushed</li>
+                                    <li>2 large carrots, peeled and diced into ½-inch pieces</li>
+                                    <li>2 medium russet potatoes, peeled and diced into ½-inch pieces</li>
+                                    <li>salt and pepper, to taste</li>
+                                <h2>FOR SERVING:</h2>
+                                    <li>sour cream</li>
+                                    <li>fresh parsley, minced</li>
+                                    <li>hearty bread</li>   
+                            </ul>                 
+
+                        Instructions
+                        In a large Dutch oven or heavy-bottomed pot over medium-high heat melt the butter or drippings. Add the onions and sauté while stirring frequently until they’re translucent and beginning to brown on the edges, about 6-7 minutes. Add in the meat 1 Tablespoon of paprika, 1 teaspoon of salt, and cook, stirring often, until the meat has a nice sear on the outside and is no longer pink on the inside, about 10 minutes.
+                        Add in the bell peppers, and cook for 5-6 minutes, or until the bell peppers are softened. Add the remaining paprika, tomato paste, and garlic and stir constantly until fragrant and combined, about 1-2 minutes.
+                        Pour in the beef broth and stir in the bay leaf and caraway seeds. Bring the mixture to a low boil and then reduce the heat to medium, cover, and simmer for 20 minutes. Add the carrots and potato, cover, and cook until the vegetable are tender, about 20 more minutes. 
+                        Remove the bay leaf, and season the goulash with salt and pepper to taste and serve with sour cream, minced parsley, and some nice crusty bread.
+                            https://foodfolksandfun.net/hungarian-goulash/
+                    </div>
+
+                <div id="comment" class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Comment" aria-label="Comment" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button">Comment</button>
+                        </div>
+                </div>
+            <!-- <div class="comment">
+                <input type="input" value="" placeholder="Comment">
+            </div> -->
+            </div>
+        </main>
+        
+
+
+
+<div class="container">
+    <footer>&copy 2019 K&J Inc.
+        <ul class="social-icons">
+            <a href="http://www.facebook.com"><img src='/images/f_logo_RGB-Blue_250.png' width=40 height=40 /></a>
+            <a href="http://www.twitter.com"><img src='/images/Twitter_Social_Icon_Square_Color.png' width=40 height=40/></a>
+            <a href="http://www.pinterest.com"><img src='/images/pinterest.png' width=40 height=40 /></a>
+        </ul>
+    </footer>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
